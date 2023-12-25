@@ -4,10 +4,10 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
 public class Rectangle extends Shape {
-    private final double height = 30;
+    private final double height = 30;//создать конструктор с этими параметрами
     private final double width = 60;
     public Rectangle(){
-        figure = "Rectangle";
+        figure = "Rectangle";//зачем? 
     }
 
     @Override
